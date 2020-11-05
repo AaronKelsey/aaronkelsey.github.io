@@ -1,0 +1,45 @@
+#container{
+	width: 300px;
+	height: 300px;
+	
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+	text-align: center;
+}
+
+#profile-picture{
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px;
+}
+
+.sm-icon{
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color:transparent;
+}
+
+.center{
+	
+}
+
+h1{
+	font-family: Arial;
+}
+
+h2{
+	font-family: Arial;
+}
+
+p{
+	font-family: Arial;
+}
