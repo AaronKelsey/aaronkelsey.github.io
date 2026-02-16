@@ -1,44 +1,55 @@
-<!doctype html>
-
+<!-- index.html -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-
-  <title>Aaron Kelsey | Software Engineer</title>
-  <meta name="description" content="Personal portfolio website">
-  <meta name="author" content="Aaron Kelsey">
-
-<link rel="icon" href="images/me_cartoon.ico" type="image/x-icon" />
-
-  <link rel="stylesheet" href="css/main-style.css?v=1.0">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/me_cartoon.ico">
+    <title>Aaron Kelsey | Software Engineer</title>
+    <link rel="stylesheet" href="css/main-style.css">
 </head>
-
 <body>
-<div id="container">
-  <img id="profile-picture" src="images/me_cartoon.png" alt="Cartoon portait">
+<main class="card">
+    <div class="header">
+        <div class="profile">
+            <img src="images/me_cartoon.png" alt="Photo of Aaron Kelsey" class="avatar" />
+            <div>
+                <h1>Aaron Kelsey</h1>
+                <h2>Software Engineer · London, UK</h2>
+            </div>
+        </div>
 
-  <h3 class="center">SOFTWARE ENGINEER</h3>
+        <p class="intro">
+            I’m a backend software engineer with 7+ years' experience building scalable microservices and event‑driven systems in the fintech domain.
+        </p>
+        <p class="intro">
+            I’m motivated by a genuine interest in personal finance and enjoy learning, solving complex problems, and building systems that have real-world impact.
+        </p>
 
-  <h1 class="center">AARON KELSEY</h1>
+        <div class="tags">
+            <span class="tag">Kotlin</span>
+            <span class="tag">Kafka</span>
+            <span class="tag">Microservices</span>
+            <span class="tag">Event‑Driven Systems</span>
+            <span class="tag">FinTech</span>
+        </div>
 
-  <h3 class="center">Based in Bournemouth and Poole.</h3>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/aaron-kelsey" target="_blank" class="link-item">
+                <img src="images/linkedin_icon.png" alt="LinkedIn" class="link-icon" />
+                LinkedIn
+            </a>
+            <a href="https://github.com/AaronKelsey" target="_blank" class="link-item">
+                <img src="images/github_icon.png" alt="GitHub" class="link-icon" />
+                GitHub
+            </a>
+        </div>
 
-  <div id="sm-icons">
-	<a href="https://www.linkedin.com/in/aaron-kelsey/">
-		<img id="linkedin_icon" class="sm-icon" src="images/linkedin_icon.png">
-	</a>
-	
-	<a href="https://github.com/AaronKelsey">
-		<img id="github_icon" class="sm-icon" src="images/github_icon.png">
-	</a>
-	
-	<a href="mailto:aaronkelsey27@gmail.com">
-		<img id="email_icon" class="sm-icon" src="images/email_icon.png">
-	</a>
-  </div>
-</div>
-
-<script src="js/main.js"></script>
+        <div class="footer">
+            © 2026 Aaron Kelsey
+        </div>
+    </div>
+</main>
+<script src="script.js"></script>
 </body>
 </html>
